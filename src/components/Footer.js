@@ -1,5 +1,5 @@
 import React from 'react'
-import { pageLinks, socialLinks } from '../data'
+import { socialLinks } from '../data'
 import { PageLinks } from './PageLinks'
 export const Footer = () => {
   return (
@@ -10,7 +10,7 @@ export const Footer = () => {
       const {id, href, icon} = social
       return (
         <li>
-        <a href={href} target="_blank" className="footer-icon"
+        <a id = {id} href={href} target="_blank" rel="noreferrer" className="footer-icon"
           ><i className={icon}></i></a>
       </li>
       )
