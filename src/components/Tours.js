@@ -27,7 +27,7 @@ return(
             <p>
               <span><i className="fas fa-map"></i></span> china
             </p>
-            <p>{date}</p>
+            <p>{duration}</p>
             <p>{cost}</p>
           </div>
         </div>
